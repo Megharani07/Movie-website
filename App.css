@@ -1,0 +1,51 @@
+
+
+body {
+  background-color: #1e2931;
+  color: #fff;
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* .movie-app > .row {
+  
+	overflow-x: auto;
+	flex-wrap: nowrap;
+} */
+
+.col{
+  text-align: left;
+}
+
+.col col-sm-4{
+  display: inline;
+  justify-content: end;
+}
+
+.form-control{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.image-container{
+  width:300px;
+  height: auto;
+  margin:10px 10px;
+}
+
+.image-container img{
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.movie__title {
+  font-size: 1rem;
+  font-weight: normal;
+  font-variant: small-caps;
+  margin: 0;
+}
